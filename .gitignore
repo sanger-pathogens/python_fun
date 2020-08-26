@@ -1,0 +1,13 @@
+.vagrant/
+.idea/
+venv/
+*.log
+build/
+dist/
+.eggs/
+fun.egg-info/
+__pycache__
+.noseids
+nosetests.xml
+.vscode/
+.coverage
