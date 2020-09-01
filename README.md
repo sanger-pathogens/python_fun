@@ -2,11 +2,10 @@
 A python test for developers
 
 ## Install
-Clone the repository locally and install in a virtual environment:
-Ideally use a virtual environment:
+Clone the repository locally and ideally install in a virtual environment:
 ```
 # Clone the repo locally
-git clone https://github.com/seretol/fun
+git clone https://github.com/sanger-pathogens/fun
 cd fun
 
 # Create and activate a virtual environment
