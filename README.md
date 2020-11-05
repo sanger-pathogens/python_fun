@@ -5,8 +5,8 @@ A python test for developers
 Clone the repository locally and ideally install in a virtual environment:
 ```
 # Clone the repo locally
-git clone https://github.com/sanger-pathogens/fun
-cd fun
+git clone https://github.com/sanger-pathogens/python_fun
+cd python_fun
 
 # Create and activate a virtual environment
 virtualenv venv
@@ -21,7 +21,7 @@ python setup.py nosetests
 
 ## Uninstall
 ```
-pip uninstall fun
+pip uninstall python_fun
 ```
 
 ## Usage
@@ -36,4 +36,3 @@ A test fasta file is available in the ```test_data``` directory
 
 ## License
 Fun is free software, licensed under [GPLv3](https://github.com/seretol/fun/blob/master/LICENSE).
-
