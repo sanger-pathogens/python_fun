@@ -9,14 +9,16 @@ git clone https://github.com/sanger-pathogens/python_fun
 cd python_fun
 
 # Create and activate a virtual environment
-virtualenv venv
+python3 -m venv venv
 source venv/bin/activate
 
 # Install fun
 pip install .
 
 # Run the tests
-nosetests
+## The tests are still written in unittest (legacy), 
+##  but pytest runs them just fine
+pytest
 ```
 
 ## Uninstall
