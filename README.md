@@ -16,7 +16,7 @@ source venv/bin/activate
 pip install .
 
 # Run the tests
-python setup.py nosetests
+nosetests
 ```
 
 ## Uninstall
@@ -32,7 +32,7 @@ fun.py -h
 ```
 
 ## Test data
-A test fasta file is available in the ```test_data``` directory
+A test fasta file is available in the `test_data` directory
 
 ## License
-Fun is free software, licensed under [GPLv3](https://github.com/seretol/fun/blob/master/LICENSE).
+Fun is free software, licensed under [GPLv3](https://github.com/sanger-pathogens/python_fun/blob/master/LICENSE).
