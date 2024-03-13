@@ -15,3 +15,12 @@ def read_sequences(stream):
 def read_sequence_file(filename):
     with open(filename, 'r') as sequence_file:
         return read_sequences(sequence_file)
+
+
+def obvious_bad_practice(list: str):  # should tell us about unfavourable variable names
+    import os
+    # Should show a syntaxerror
+    print os.getenv("BLAH")
+    import subprocess
+    subprocess.check_output(["ls"], shell=True)  # should tell us shell=True is unadvisable
+    
